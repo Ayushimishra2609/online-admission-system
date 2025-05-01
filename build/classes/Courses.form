@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" max="32767" attributes="0"/>
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace min="70" pref="70" max="-2" attributes="0"/>
+              <Component id="jPanel2" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="1084" max="-2" attributes="0"/>
+                  <EmptySpace pref="179" max="32767" attributes="0"/>
+                  <Component id="jLabelclose" min="-2" pref="47" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabelclose" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel1" pref="51" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="30" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="SELF FINANCE DEGREE/DIPLOMA COURSE FEE DETAILS 2022-23"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelclose">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="48" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="x"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabelcloseMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="0" red="66" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabelHOME" min="-2" pref="272" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="534" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" pref="600" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabelHOME" min="-2" pref="37" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="0" red="33" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="18" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="66" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="6" rowCount="23">
+                    <Column editable="true" title="Name Of Course" type="java.lang.Object">
+                      <Data value="B.B.A.1st YEAR"/>
+                      <Data value="B.B.A. 2nd YEAR"/>
+                      <Data value="B.B.A. 3rd YEAR"/>
+                      <Data value="B.Com.(Hons.)1st Year"/>
+                      <Data value="B.Com.(Hons.)2nd Year"/>
+                      <Data value="B.Com.(Hons.)3rd Year"/>
+                      <Data value="B.C.A.1st Year"/>
+                      <Data value="B.C.A.2nd Year"/>
+                      <Data value="B.C.A.3rd Year"/>
+                      <Data value="B.Lib.Science"/>
+                      <Data value="M.Lib.Science"/>
+                      <Data value="M.A.1st Geography"/>
+                      <Data value="M.A.2nd Geography"/>
+                      <Data value="M.Sc.1st Environment Science"/>
+                      <Data value="M.Sc.1st Environment Science Management Seat"/>
+                      <Data value="M.Sc.2nd Environment Science"/>
+                      <Data value="M.Sc.2nd Environment Science Management Seat"/>
+                      <Data value="M.Ed.  1st"/>
+                      <Data value=" M.Ed.2nd"/>
+                      <Data value="P.G.D.C.A"/>
+                      <Data value="P.G.Dip.In Office Management"/>
+                      <Data value="P.G.Dip. in Travel &amp; Tourism manageme"/>
+                      <Data value="P.G.Dip. in Environment manageme"/>
+                    </Column>
+                    <Column editable="true" title="One Year Fee" type="java.lang.Object">
+                      <Data value="15000"/>
+                      <Data value="15000"/>
+                      <Data value="15000"/>
+                      <Data value="12000"/>
+                      <Data value="12000"/>
+                      <Data value="12000"/>
+                      <Data value="20000"/>
+                      <Data value="20000"/>
+                      <Data value="20000"/>
+                      <Data value="18000"/>
+                      <Data value="25000"/>
+                      <Data value="8000"/>
+                      <Data value="8000"/>
+                      <Data value="30000"/>
+                      <Data value="35000"/>
+                      <Data value="30000"/>
+                      <Data value="35000"/>
+                      <Data value="55000"/>
+                      <Data value="45575"/>
+                      <Data value="12000"/>
+                      <Data value="5000"/>
+                      <Data value="4000"/>
+                      <Data value="10000"/>
+                    </Column>
+                    <Column editable="true" title="Caution Money" type="java.lang.Object">
+                      <Data value="500 "/>
+                      <Data value=""/>
+                      <Data value=""/>
+                      <Data value="500"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                      <Data value="500"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                      <Data value="2000"/>
+                      <Data value="2000"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                      <Data value="2000"/>
+                      <Data value="null"/>
+                      <Data value="500"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                    </Column>
+                    <Column editable="true" title="Cycle+ L Card fee" type="java.lang.Object">
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                      <Data value="35"/>
+                    </Column>
+                    <Column editable="true" title="Games Fee" type="java.lang.Object">
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                      <Data value="150"/>
+                    </Column>
+                    <Column editable="true" title="Total Fee" type="java.lang.Object">
+                      <Data value="15685"/>
+                      <Data value="15185"/>
+                      <Data value="15185"/>
+                      <Data value="12685"/>
+                      <Data value="12185"/>
+                      <Data value="12185"/>
+                      <Data value="20685"/>
+                      <Data value="20185"/>
+                      <Data value="20185"/>
+                      <Data value="20185"/>
+                      <Data value="27185"/>
+                      <Data value="8185"/>
+                      <Data value="8185"/>
+                      <Data value="30185"/>
+                      <Data value="35185"/>
+                      <Data value="30185"/>
+                      <Data value="35185"/>
+                      <Data value="57185"/>
+                      <Data value="45760"/>
+                      <Data value="12685"/>
+                      <Data value="5185"/>
+                      <Data value="4185"/>
+                      <Data value="10185"/>
+                    </Column>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="gridColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="rowHeight" type="int" value="25"/>
+                <Property name="selectionBackground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="66" green="0" red="66" type="rgb"/>
+                </Property>
+                <Property name="showGrid" type="boolean" value="true"/>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabelHOME">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="24" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="BACK TO HOME PAGE"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabelHOMEMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
