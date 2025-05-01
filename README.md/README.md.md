@@ -1,15 +1,20 @@
-# Online Admission System
+# Online Admission System 🎓
 
-This project is a simple online admission system built using Java and MySQL. It allows users to apply for admissions and stores the data in a MySQL database.
+This is a Java-based desktop application built using NetBeans and MySQL for managing online student admissions.
 
-## Setup Instructions
+## 💻 Tech Stack
+- Java (Swing, JDBC)
+- NetBeans IDE
+- MySQL Database
 
-1. Clone this repository.
-2. Import the project into your IDE.
-3. Set up the MySQL database with the provided `userdatabase.sql`.
-4. Run the application.
+## 🔐 Features
+- Admin login
+- Student registration form
+- Admission form validation
+- Database connectivity with MySQL
 
-## Dependencies
-
-- Java
-- MySQL
+## 🗄️ Database Setup
+1. Import `userdatabase.sql` into your MySQL server.
+2. Update DB config in code if needed:
+   ```java
+   Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/userdatabase", "root", "Ayushi2609@@");
